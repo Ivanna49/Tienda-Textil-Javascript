@@ -1,0 +1,337 @@
+
+/* Importación de Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+   
+}
+/*Indice de Navegación*/
+.navbar {
+  background: linear-gradient(90deg, rgba(250,249,251,1) 0%, rgba(249,249,251,1) 0%, rgba(157,170,199,1) 0%, rgba(120,130,213,1) 0%, rgba(225,215,235,1) 0%, rgba(203,185,231,1) 0%, rgba(71,62,210,1) 0%, rgba(74,66,208,1) 17%, rgba(109,114,192,1) 47%, rgba(192,189,238,1) 77%, rgba(39,184,230,1) 100%, rgba(124,130,214,1) 100%, rgba(197,194,239,1) 100%, rgba(111,154,167,1) 100%, rgba(244,247,250,1) 100%, rgba(99,94,221,1) 100%, rgba(30,20,201,1) 100%, rgba(194,233,217,1) 100%, rgba(198,194,233,1) 100%, rgba(190,55,207,1) 100%, rgba(136,142,231,1) 100%, rgba(25,72,88,1) 100%, rgba(194,195,233,1) 100%, rgba(5,14,50,1) 100%, rgba(194,233,217,1) 100%);;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: rgb(250,249,251);
+  ;
+}
+
+.navbar-nav .nav-item:hover,
+.navbar-toggler-icon:focus {
+  background-color: #9d6fe7;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 5em;
+}
+
+.badge {
+    background-color: rgb(122, 51, 214);
+    color: white;
+}
+
+
+/* Header */
+header {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;  
+    padding: 100px 0;  
+}
+
+.header-content {
+    background-color: rgba(202, 129, 199, 0.6);  
+    padding: 20px;  
+    border-radius: 8px;  
+}
+ 
+.btn {
+    font-size: 18px;
+    margin-top: 20px; 
+    background-color: #f8f3f0;
+    color: #333; 
+    transition: background-color 0.3s, color 0.3s;  
+    outline: none;  
+
+}
+
+.btn:hover {
+    background-color: #f0c1f0;  
+    color: #666;  
+}
+
+/*Sobre Nosotros*/
+
+#sobre-nosotros h2 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+/*Productos*/
+
+.card {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 15px;  
+}
+
+.card .btn {
+    margin-right: 10px;  
+}
+
+.card .fa-heart {
+    color: #f0c1f0;
+    font-size: 1.5rem;  
+    margin-top: 1em;
+}
+
+.card .fa-heart:hover {
+    color: #f0c1f0;
+}
+
+/* Estilo para las tarjetas de producto */
+.card {
+    width: 18rem;
+    margin: 0 10px ; 
+    padding: 0px;
+}
+
+.card-footer {
+    background-color: #fff;
+}
+
+.card-text {
+    max-height: 100px; 
+    overflow-y: auto; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+  }
+.d-flex.align-items-center {
+    justify-content: space-between;
+}
+
+/* Estilos para la sección de publicidad */
+#publicidad {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2em 0;
+    padding: 50px 0;
+    text-align: right;
+}
+
+.publicidad-content h2 {
+    font-size: 2em;  
+    margin-right: 6em;
+    text-transform: uppercase;  
+    color: rgb(51, 48, 48);
+}
+
+.publicidad-content span {
+    font-size: 3em;  
+    text-transform: uppercase;  
+    color: rgb(51, 48, 48);
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+.publicidad-content p {
+    font-size: 1.5em;  
+    text-transform: uppercase; 
+    color: rgb(51, 48, 48);
+    margin-right: 10px;  
+}
+
+.codigo-descuento {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+    margin-top: 10px;
+}
+
+.codigo-borde {
+    border: 1px solid #f0c1f0; 
+    background-color: #f0c1f0;
+    padding: 5px 5px;  
+    border-radius: 5px;
+    text-align: center;  
+}
+
+#codigo {
+    font-weight: bold;  
+    color: #310831;  
+    display: inline-block;  
+}
+
+/* Ventajas */
+#ventajas {
+    padding: 50px 0;
+}
+
+#ventajas h2 {
+    margin-bottom: 2em;  
+}
+
+#ventajas .col-md-4 {
+    text-align: center;
+}
+
+#ventajas i {
+    font-size: 3em;
+    color: #333; 
+}
+
+#ventajas p {
+    margin-top: 1em;  
+}
+
+/*suscripción */
+#suscribir {
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.7);  
+    padding: 50px 0;
+    text-align: center;
+    color: #2e1d2e;  
+}
+
+/* carrito.html */
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.428571429;
+}
+  
+/* Sección Contacto */
+#contacto {
+    background: #FFFFFF; 
+    padding: 60px 0;
+}
+
+#contacto h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+ 
+}
+
+form input, 
+form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #E0E0E0; 
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    background-color: #bc9ac7; 
+    color: #FFFFFF; 
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #8d5a9c; 
+}
+
+/* Footer */
+footer {
+    background-color: #bc9ac7;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+.footer-links ul a {
+    display: inline;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sección Reseñas */
+#resenas {
+    background: #F8F9FA; 
+    padding: 60px 0;
+}
+
+#resenas h2 {
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.resenas-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.resena {
+    background: #FFFFFF; 
+    padding: 20px;
+    border-left: 5px solid #bc9ac7; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.resena p {
+    font-style: italic;
+   
+}
+.resena h4 {
+    text-align: right;
+    margin-top: 10px; 
+    font-weight: bold;
+}
+/* Video */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.video-container video,
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+
